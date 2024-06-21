@@ -145,7 +145,7 @@
   flex-direction: column;
 }
 
-.recipes__iframe {
+.recipes__iframe-block {
   width: 1000px;
   height: 273px;
   display: flex;
@@ -188,11 +188,7 @@
   justify-content: space-between;
 }
 
-.recipes__iframe-video-aeropress {
-  width: 480px;
-}
-
-.recipes__iframe-video-french {
+.recipes__iframe {
   width: 480px;
 }
 
