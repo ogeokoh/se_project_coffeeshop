@@ -211,13 +211,6 @@
   margin: 100px auto 0;
 }
 
-label[required]:after {
-  content: "*";
-  color: black;
-  font-weight: bold;
-  margin-left: 5px;
-}
-
 .reservation__form {
 }
 
