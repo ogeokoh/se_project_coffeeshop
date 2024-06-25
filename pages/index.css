@@ -243,6 +243,7 @@ label[required]:after {
   border-radius: 4px;
   height: 60px;
   margin: 0 0 32px;
+  padding-left: 20px;
 }
 
 .input::placeholder {
@@ -279,8 +280,7 @@ label[required]:after {
 }
 
 .form__label-checkbox {
-  padding-left: auto;
-  padding-right: auto;
+  padding-left: 70px;
 }
 
 .menu {
