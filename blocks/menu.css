@@ -1,0 +1,76 @@
+.menu {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/background_menu.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-width: 100px;
+  max-width: 1600px;
+}
+
+.menu__title {
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 100px auto 0;
+  max-width: 780px;
+}
+
+.menu__subtitle {
+  margin: 24px auto 0;
+  max-width: 780px;
+  text-align: center;
+  font-family: "Noto Serif";
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.menu__cards {
+  margin: 100px auto 100px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 1180px;
+  height: 588px;
+  gap: 100px;
+}
+
+.card {
+  width: 540px;
+  display: flex;
+}
+
+.card__title {
+  list-style-type: none;
+  font-family: "Inter";
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.card__list-item {
+  font-family: "Noto Serif";
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 540px;
+  margin-top: 16px;
+}
+
+ul li:first-child {
+  margin-top: 32px;
+}
+
+.card__list-divider {
+  flex-grow: 1;
+  border-bottom: 1px solid #000;
+}
