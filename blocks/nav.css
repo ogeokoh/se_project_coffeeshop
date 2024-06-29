@@ -23,4 +23,10 @@
 .nav__link {
   color: #000;
   text-decoration: none;
+  margin: 0;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color 1s ease;
 }

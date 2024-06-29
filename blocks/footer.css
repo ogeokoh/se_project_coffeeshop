@@ -50,6 +50,8 @@
 }
 
 .footer__social-link:hover {
+  color: #c1c1c1;
+  transition: color 1s ease;
 }
 
 .footer__social-icon {
