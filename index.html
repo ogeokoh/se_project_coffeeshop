@@ -86,15 +86,15 @@
                 class="recipes__iframe"
               ></iframe>
             </div>
-            <div class="recipes__videos-caption">
-              <div class="recipes__videos-caption-aeropress">
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
-              </div>
-              <div class="recipes__videos-caption-french">
-                <p>French press recipe</p>
-                <p>~15 min</p>
-              </div>
+            <div class="recipes__videos-captions">
+              <p class="recipes__videos-caption">
+                <span>Aeropress recipe</span>
+                <span>~5 min</span>
+              </p>
+              <p class="recipes__videos-caption">
+                <span>French press recipe</span>
+                <span>~15 min</span>
+              </p>
             </div>
           </div>
         </section>
@@ -108,6 +108,7 @@
                 id="name"
                 placeholder="Name Surname"
                 class="form__input"
+                required
               />
               <label for="guests" class="form__label">Number of guests *</label>
               <input
@@ -115,18 +116,25 @@
                 id="guests"
                 placeholder="1-8"
                 class="form__input"
+                required
               />
               <label for="datetime" class="form__label">Date & time *</label>
-              <input type="datetime-local" id="datetime" class="form__input" />
+              <input
+                type="datetime-local"
+                id="datetime"
+                class="form__input"
+                required
+              />
               <label for="email" class="form__label">Your email *</label>
               <input
                 type="email"
                 id="email"
                 placeholder="email@email.com"
                 class="form__input"
+                required
               />
               <button type="submit" class="form__button">Book a table</button>
-              <label class="form__label form__label-checkbox">
+              <label class="form__label form__label_checkbox">
                 <input type="checkbox" class="form__checkbox" checked />
                 I agree with the terms of use
               </label>
@@ -222,28 +230,25 @@
             </li>
           </ul>
           <div>
-          <div class="about__circle"></div>
+            <div class="about__circle"></div>
           </div>
           <div>
-          <div class="about__circle_animation_blurred"></div>
+            <div class="about__circle about__circle_animation_blurred"></div>
           </div>
-          </section>
         </section>
       </main>
       <footer class="footer">
         <div class="footer__content">
           <div class="footer__logo">
             <img
-            src="./images/logo_coffeeshop_light.svg"
-            alt="Triple Peaks Library Logo"
-            class="footer__logo"
-          />
-          <p class="footer__copyright">&copy; 2024 Oge</p>
+              src="./images/logo_coffeeshop_light.svg"
+              alt="Triple Peaks Library Logo"
+              class="footer__logo"
+            />
           </div>
           <div>
-          <div class="footer__social-heading">Social media</div>
+            <div class="footer__social-heading">Social media</div>
             <ul class="footer__list">
-
               <li class="footer__list-item">
                 <a href="#" class="footer__social-link">
                   <img
@@ -263,8 +268,9 @@
                 </a>
               </li>
             </ul>
+          </div>
         </div>
-      </div>
+        <p class="footer__copyright">&copy; 2024 Oge</p>
       </footer>
     </div>
   </body>
